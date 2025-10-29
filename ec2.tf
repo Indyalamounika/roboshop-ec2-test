@@ -1,7 +1,7 @@
 module "catalogue" {
-    source = "../terraform-aws-instance"
+    source = "../terraform-awsinstance"
     # ami_id = "ami-09c813fb71547fc4f"
-    # sg_ids = ["sg-07c8acf3fa6b923fa"]
+    # sg_ids = ["sg-01db7fc8d23c7e64f"]
     # instance_type = "t3.micro"
     # tags = {
     #     Name = "modu"
@@ -25,3 +25,4 @@ output "priv_ip" {
 output "id" {
     value = module.catalogue.instance_id
 }
+    

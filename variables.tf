@@ -3,7 +3,7 @@ variable "ami_id" {
 }
 
 variable "sg_ids" {
-    default = ["sg-07c8acf3fa6b923fa"]
+    default = ["sg-01db7fc8d23c7e64f"]
 }
 
 variable "instance_type" {
